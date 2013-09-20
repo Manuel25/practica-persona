@@ -1,0 +1,33 @@
+
+using System;
+
+namespace Persona{
+	class Persona{
+                  
+		
+		public string nombre;
+		public string correo;
+		public int edad;
+
+		public static void Main(){
+
+			Persona p= new Persona();
+		
+		Console.WriteLine("Nombre:");
+		p.nombre = Console.ReadLine();
+		
+		Console.WriteLine("Correo:");
+		p.correo = Console.ReadLine();
+		
+		Console.WriteLine("Edad:");
+		p.edad= int.Parse(Console.ReadLine());
+		
+		Console.Clear();
+		
+	    Console.WriteLine("Nombre:" + p.nombre);
+	    Console.WriteLine("Correo:" + p.correo);
+	    Console.WriteLine("Edad:"+ p.edad);
+	    Console.ReadLine();
+		}
+	}
+}
